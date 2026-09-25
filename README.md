@@ -2,7 +2,7 @@
 
 A collaborative study of how repulsion between random points affects connectivity. We place a disk of the same radius around every point and ask how large that radius must be for the disks to form an unbounded connected region. We compare two random point configurations with the same average number of points per unit area: Ginibre and Poisson.
 
-Every result, method, or proof on this Git repository is completely free to reuse. If you want to take it, write your own article, and add to the noise, you are free to do so. However, we believe that the current capabilities of AI should push us toward a more collaborative, less ego-driven way of doing mathematics. We generally believe that there is no point in claiming for yourself results that are or can be easily AI-generated (more info in the [manifesto](A%20Manifesto%20for%20Renewing%20the%20Practice%20of%20Mathematics.pdf)). So we advise against participating in the noise and invite you to join us. You are very welcome.
+Every result, method, or proof on this Git repository is completely free to reuse. If you want to take it, write your own article, and add to the noise, you are free to do so. However, we believe that the current capabilities of AI should push us toward a more collaborative, less ego-driven way of doing mathematics. We generally believe that there is no point in claiming for yourself results that are or can be easily AI-generated (see [manifesto](https://www.lesswrong.com/posts/zm5ovfqZ35A8rxZCc/rethinking-credit-and-recognition-in-mathematics-in-the-age)). So we advise against participating in the noise and invite you to join us. You are very welcome.
 
 It is still not very clear how we will work together, but there is a [Discord server available for discussion](https://discord.gg/ZRppxKMQq).
 
@@ -27,7 +27,7 @@ In other words, does the more regular spacing caused by Ginibre repulsion allow 
 
 ## History
 
-This project starts from an investigation report dated 15 September 2026, a coverage audit dated 21 September 2026, and an amended report incorporating additional arguments. These materials are preserved in [Raw Material](Raw%C2%A0Material/). The amended report is the default manuscript for this repository.
+This project idea emerged through many discussion within the team PoPoPoP on the effect of repulsion on percolation.
 
 ## Announced results
 
@@ -43,13 +43,17 @@ The report also preserves an argument predicting $r_c(G_\beta)=r_c(\Pi_1)(1-\bet
 
 ## Checked results
 
-No results are yet recorded here as checked by the collaborative project. The reports contain their own verification labels; these are part of the research record. The initial task is to review those proofs and the dependencies identified by the coverage audit.
+The project didn't really started yet.
 
 ## Open questions
 
 * **Does Ginibre percolate with strictly smaller disks than Poisson?** Prove or disprove $r_c(G)<r_c(\Pi_1)$ at equal mean density.
 * **Can the proposed expansion for $G_\beta$ be proved?** Complete the geometric estimate needed when the retained fraction $\beta$ is small. Then determine whether a comparison can be extended towards $\beta=1$.
 * **Can estimates in bounded regions prove an unbounded connection?** One proposed route is to show that Ginibre disks connect across sufficiently large rectangles often enough at a radius strictly below $r_c(\Pi_1)$. The report gives a criterion for turning such estimates into percolation, but does not establish the required bounds for Ginibre.
+
+## Working principles
+
+* Not clear at the moment. It will depend on the dynamics of the group.
 
 ## Repository contents
 
@@ -81,7 +85,3 @@ Build output and TeX auxiliary files are ignored by Git. The supplied original P
 By participating in this project, you withdraw any claim of ownership over the results that you provide. We believe that ownership of a proof or a mathematical result has become a nonsensical concept and, as such, should be rejected.
 
 The repository uses the same [MIT license](LICENSE) as UniDLR.
-
-## Working principles
-
-* Not clear at the moment. It will depend on the dynamics of the group.
